@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>webweather</title>
-    <meta charset="UTF-8">
+        <meta charset="utf-8">
+        <title>WebWeather</title>
+        <link rel="stylesheet" href="style.css">
   </head>
   <body>
    <h1>WebWeather</h1>
-	 <nav>
-        <div class="navigation">
-            
-            <ul class="mynav">
-                <li ><a href="index.html">Головна</a></li>
-                <li ><a href="maps.html">Карти</a></li>
-                <li><a href="resorts.html">Погода на курортах</a></li>
-                <li class="active"><a href="notes.html">Відгуки</a></li>
+	    <nav>
+            <ul id="navigation">
+                <li><a href="index.html"></index>Main</a></li>
+                <li><a href="maps.html"></maps>Search</a></li>
+                <li><a href="resorts.html"></resorts>Weather in resorts</a></li>
+                <li><a href="notes.html">Contact us</a></li>
             </ul>
-            
-        </div>
-    </nav>
+        </nav>
+    
+                <section>
+                <p id="contact"></p>
+                <p id="contactUS">Contact Us</p>
+                <form id="con-form">
+                    <input type="text" name="name" placeholder="Your Name" id="name"><br>
+                    <input type="text" name="email" placeholder="Email address" id="email"><br>
+                    <textarea type="text" name="message" placeholder="Your message" id="message"></textarea><br>
+                    <button id="send-message">SEND MESSAGE</button>
+                </form>
+            </section>
   </body>
   </html>
