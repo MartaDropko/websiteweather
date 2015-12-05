@@ -40,8 +40,6 @@ li {
     border-right:1px solid #F7F9D3;
 }
 
-
-
 li a {
     display: block;
     color: #F7F9D3;
@@ -56,4 +54,43 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #20469E;
+}
+
+input[type="search"] {
+    width: 500px;
+    height: 50px;
+    margin-left: 400px;
+    margin-right: 0;
+    outline: none;
+    -webkit-appearance: none;
+    border: none;
+    text-align: left;
+    float: left;
+    padding: 10px;
+    margin-top: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font: 20px sans-serif;
+    background-color: rgba(0,0,0,0);
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+    border-color: #e4e2e7;
+    color: #9b989e;
+}
+
+#button-search {
+    float: left;
+    margin-top: 100px;
+    height: 50px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius:20px;
+    border: none;
+    background: #fff;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border-top: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+    border-color: #e4e2e7;
 }
